@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Distributed Ludo</title>
+    <link rel="stylesheet" type="text/css" href="modernludo.css" />
+</head>
+<body>
+    <div id="playGround" style="display:none;">
+        <div id="main">
+            <canvas id="gameboard"></canvas>
+            <canvas id="playboard"></canvas>
+            <canvas id="dice"></canvas>
+        </div>
+        <div id="buttondiv" style="margin-top:0; padding-top:0;">
+            <input type="button" id="getSix" value="Monzer?" style="height:40px; cursor:pointer;" onclick="rolltheDice(this)" />
+            <input type="button" id="rollDice" value="Roll the dice" style="height:40px; cursor:pointer;" onclick="getSix(this)" />
+        </div>
+        <div style="display:none;">
+            <img id="redcoin" src="Images/redcoin.png" alt="coin" />
+            <img id="bluecoin" src="Images/bluecoin.png" alt="coin" />
+            <img id="greencoin" src="Images/greencoin.png" alt="coin" />
+            <img id="yellowcoin" src="Images/yellowcoin.png" alt="coin" />
+            <img id="diceone" src="Images/diceone.png" alt="dice" />
+            <img id="dicetwo" src="Images/dicetwo.png" alt="dice" />
+            <img id="dicethree" src="Images/dicethree.png" alt="dice" />
+            <img id="dicefour" src="Images/dicefour.png" alt="dice" />
+            <img id="dicefive" src="Images/dicefive.png" alt="dice" />
+            <img id="dicesix" src="Images/dicesix.png" alt="dice" />
+        </div>
+    </div>
+    <script type="text/javascript" src="modernludo.js"></script>
+</body>
+</html>
